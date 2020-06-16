@@ -1,0 +1,8 @@
+We use here xampp server!!
+In phpmyadmin dashboard, 
+Firstly create databade as multi_img and then 
+create table
+as images and in that there is two column one as 
+id and another one is image_path
+this image path is fetch from server that has been upload in server
+screenshot is share in OUTPUT folder!!

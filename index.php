@@ -76,7 +76,10 @@
 
 			  		$("#image_upload").submit(function(e){
 			  			e.preventDefault();
-			  			
+			  			var filename = $(":file").val();
+						if (!filename) {
+						alert("First Image Must Be Selected");
+						e.preventDefault();
 						}
 			  			$.ajax({
 			  				url: 'insert.php',
